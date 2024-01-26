@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Website EVOS Esports</title>
   <link rel="stylesheet" href="assets/styles/style.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
@@ -13,29 +14,24 @@
     <div class="logo">
       <img src="assets/image/Logo.png" alt="Logo EVOS Esports">
     </div>
-    <nav class="nav-list">
-      <ul>
-        <li>
-          <a href="#Profile">Profile</a>
-        </li>
-        <li>
-          <a href="#Regional">Regional</a>
-        </li>
-        <li>
-          <a href="#Divisi">Divisi</a>
-        </li>
-        <li>
-          <a href="#Prestasi">Prestasi</a>
-        </li>
-      </ul>
-
-      <div class="menu-toggle">
-        <input type="checkbox">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-
+    <div class="menu-icon" id="menu-icon">
+      <i class="hidden ph ph-list" id="m-icon"></i>
+    </div>
+    <nav class="hidden nav-list" id="nav-list">
+        <ul>
+          <li>
+            <a href="#Profile">Profile</a>
+          </li>
+          <li>
+            <a href="#Regional">Regional</a>
+          </li>
+          <li>
+            <a href="#Divisi">Divisi</a>
+          </li>
+          <li>
+            <a href="#Prestasi">Prestasi</a>
+          </li>
+        </ul>
     </nav>
   </header>
 
